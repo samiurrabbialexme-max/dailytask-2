@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f18383;
+}
+
+header {
+    background: #ff0000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    background: #353535;
+    text-align: center;
+    color: white;
+}
+
+article {
+    padding: 20px;
+    background: #fff;
+
+}
+
+
+
+.catagory {
+    font-weight: bolder;
+    margin-top: 20px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #ff0000;
+    color: white;
+    font-family: 'Arial Black', Arial, sans-serif;
+}
+
+.card-title {
+    font-weight: bolder;
+    margin-top: 20px;
+    text-align: left;
+    font-size: x-large;
+    color: #ff0000;
+    font-family: 'Arial Black', Arial, sans-serif;
+}
+
+.card-text {
+    text-align: justify;
+    font-size: medium;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
