@@ -1,0 +1,97 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f18383;
+}
+
+header {
+    background: #ff0000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    background: #353535;
+    text-align: center;
+    color: white;
+}
+
+article {
+    padding: 20px;
+    background: #fff;
+    margin: 20px 0;
+}
+
+.about-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h1 {
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+
+.about-content h2 {
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.coverage-list, .values-list {
+    text-align: left;
+    display: inline-block;
+    margin: 15px 0;
+}
+
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
